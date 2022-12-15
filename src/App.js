@@ -1,7 +1,9 @@
 
 import './App.css';
 import Card from './component/card';
+import Head from './component/Head';
 import Img1 from './component/NOMAN.jpg'
+
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
       <Card 
       h2='Alamin'
       Img={Img1}/>
-      
+      <Head/>
     </div>
+    
   );
 }
 
